@@ -114,6 +114,7 @@ class SJDeleteKeyframeByInterval(bpy.types.Panel):
     r"""UI"""
     # https://docs.blender.org/api/current/bpy.types.Panel.html ui関連のdemo
     bl_label = "SJ Delete Keyframe By Interval"
+    bl_idname = "SJDELKEYFRAME_PT_PANEL"
     bl_space_type = 'VIEW_3D'
     bl_region_type = 'UI'  # UIのタイプは
     # どのモードでも出したい場合はcontextを指定しない
